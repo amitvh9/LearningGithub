@@ -6,4 +6,4 @@ github password Hsl@9999
 git add *
 git status
 git commit -m "commit message"
-git push origin master
+git push origin main
