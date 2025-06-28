@@ -1,1 +1,9 @@
 http://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+github password Hsl@9999
+
+
+--command to add new code to existing repository
+git add *
+git status
+git commit -m "commit message"
+git push origin master
