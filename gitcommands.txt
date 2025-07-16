@@ -7,13 +7,13 @@ github password = Hsl@9999
 https://git-scm.com/downloads
 
 --command to initialize local repository in cmd and push first code to remote repository
-git config --global user.name "Sam Smith"   							--letting github know who you are
-git config --global user.email		   							--letting github know who you are		
-git init 				     							--initializing git file in folder		
-git add *				     							--to add files to staging for commit
-git commit -m "first commit"									--commit will only look for files present in staging
-git remote add origin https://github.com/amitvh9/LearningGithub.git				--to connect local repository to remote repository
-git push origin main		    								--to push commited code to the main branch of remote repository	
+git config --global user.name "Sam Smith"   						     --letting github know who you are
+git config --global user.email		   						     --letting github know who you are		
+git init 				     						     --initializing empty git repository(.git file will be createdin folder)
+git add *				     						     --to add files to staging for commit
+git commit -m "first commit"								     --commit will only look for files present in staging
+git remote add origin https://github.com/amitvh9/LearningGithub.git			     --to connect local repository to remote repository
+git push origin main		    							     --to push commited code to the main branch of remote repository	
 git will ask for username and password when pushing for the first time
 
 
