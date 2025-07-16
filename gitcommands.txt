@@ -21,4 +21,4 @@ git will ask for username and password when pushing for the first time
 git add *
 git status
 git commit -m "commit message"
-NEW LINE New line
+git log												--gives history/logs of previous commits
