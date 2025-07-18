@@ -22,3 +22,7 @@ git add *
 git status
 git commit -m "commit message"
 git log												--gives history/logs of previous commits
+
+
+--command to checkout older commits
+git checkout 3d86522										--switches to older commits based on commit hash
