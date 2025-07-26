@@ -26,3 +26,14 @@ git log												--gives history/logs of previous commits
 
 --command to checkout older commits
 git checkout 3d86522										--switches to older commits based on commit hash
+
+
+--command to clone git repository from local machine or remote repository	
+git clone username@host:/path/to/repository
+git clone /path/to/repository		
+
+git clone:
+Will physically download the files into your computer. It will take space from your computer. If the repo is 200Mb, then it will download that all and place it in the directory you cloned.
+
+git remote add:
+Won't take space! It's more like a pointer! It doesn't increase your disk consumption. It just gets a snapshot of what branches are available and their git commit history I believe. It doesn't contain the actual file/folders of your project.
